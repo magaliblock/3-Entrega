@@ -1,0 +1,23 @@
+header {
+    font-size: large;
+    background-color: whitesmoke;
+    display: grid;
+    justify-content: center;
+
+    nav {
+        width: 80%;
+        margin: 0 auto;
+        ul {
+            display: flex;
+            justify-content: space-between;
+            li {
+                list-style-type: none;
+                a {
+                    text-decoration: none;
+                    color: rgb(138, 124, 124)
+                }
+            }
+        }
+    
+    }
+}
